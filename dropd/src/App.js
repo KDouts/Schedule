@@ -1,13 +1,15 @@
 
 import React from 'react';
 import './App.css';
-import DateTime from './DateTime/DateTime';
+import Import from "./components/Import/Import";
+import DateTime from './components/DateTime/DateTime';
 
 function App() {
   return (
     <div className="App">
       <p>Hello World!</p>
       <DateTime />
+      <Import />
     </div>
   );
 }
